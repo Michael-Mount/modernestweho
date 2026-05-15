@@ -4,7 +4,7 @@ import AmenitiesPage from "../components/amenities/AmenitiesPage";
 export const metadata = {
   title: "Amenities | The Modernest WeHo",
   description:
-    "All the high end and luxury amenities offered at The Modernest Gultch View",
+    "All the high end and luxury amenities offered at The Modernest WeHo",
 };
 
 export default function Amenities() {
