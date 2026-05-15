@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: var(--font-montserrat-google);
+  --font-prata: var(--font-prata-google);
+}
+
+:root {
+  --refresh: #ffffff;
+  --awaken: #f4f1e9;
+  --daydream: #c8d6d3;
+  --explore: #d3cab9;
+  --rewnew: #635850;
+  --rest: #282725;
+}
+
+@theme inline {
+  --color-refresh: var(--refresh);
+  --color-awaken: var(--awaken);
+  --color-daydream: var(--daydream);
+  --color-explore: var(--explore);
+  --color-renew: var(--rewnew);
+  --color-rest: var(--rest);
+}
+
+body {
+  background: var(--refresh);
+  color: var(--rewnew);
+}
