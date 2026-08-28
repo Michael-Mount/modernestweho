@@ -10,15 +10,6 @@ import HeroImage from "../components/layout/hero/HeroImage";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-export const metadata = {
-  title: "FAQ | The Mondernest at WeHo",
-  description: "Learn about The Mondernest at WeHo's FAQ",
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
-
 const HERO_IMAGE =
   "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2400&auto=format&fit=crop";
 
