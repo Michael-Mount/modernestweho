@@ -17,8 +17,9 @@ const mainLinks = [
     label: "Stay",
     href: "/rooms",
     dropdown: [
-      { label: "Rooms & Suites", href: "/rooms" },
-      { label: "Corporate Travel", href: "/corporate-travel" },
+      { label: "Nightly Stay", href: "/stay/nightly" },
+      { label: "Extended Stay", href: "/stay/extended" },
+      { label: "Corporate Stay", href: "/stay/corporate" },
     ],
   },
   {
@@ -34,6 +35,8 @@ const mainLinks = [
 
 export default function Navbar() {
   const pathname = usePathname();
+  const isPrivacyPolicy = pathname === "/privacy-policy";
+  const isAccesiblity = pathname === "/accessibility";
 
   const [openIndex, setOpenIndex] = useState(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -81,11 +84,19 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const hasFilledNav = isPrivacyPolicy || isAccesiblity || isScrolled;
+
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 w-full text-white transition-all duration-300 ${
-        showNav || mobileMenuOpen ? "translate-y-0" : "-translate-y-full"
-      } ${isScrolled ? "bg-renew shadow-lg backdrop-blur-md" : "bg-transparent"}`}
+      className={`${
+        isPrivacyPolicy || isAccesiblity ? "relative" : "fixed inset-x-0 top-0"
+      } z-50 w-full text-white transition-all duration-300 ${
+        isPrivacyPolicy || isAccesiblity || showNav || mobileMenuOpen
+          ? "translate-y-0"
+          : "-translate-y-full"
+      } ${
+        hasFilledNav ? "bg-renew shadow-lg backdrop-blur-md" : "bg-transparent"
+      }`}
     >
       <div className="px-4 pt-4 md:px-6 md:pt-5">
         {/* MOBILE NAV */}
@@ -116,7 +127,7 @@ export default function Navbar() {
           <Link
             href="/book-now"
             className={`px-4 py-3 text-[12px] uppercase tracking-[0.18em] text-white transition-colors duration-300 hover:opacity-90 ${
-              isScrolled ? "bg-renew" : "bg-explore"
+              hasFilledNav ? "bg-renew" : "bg-explore"
             }`}
           >
             Book Now
@@ -208,7 +219,7 @@ export default function Navbar() {
           <div className="flex flex-1 flex-col items-end gap-8">
             <div
               className={`flex items-center gap-10 px-6 py-4 transition-colors duration-300 ${
-                isScrolled ? "bg-white/5" : "bg-white/10"
+                hasFilledNav ? "bg-white/5" : "bg-white/10"
               }`}
             >
               <div className="flex items-center gap-8">
@@ -236,7 +247,7 @@ export default function Navbar() {
                 <Link
                   href="/book-now"
                   className={`px-10 py-4 text-[14px] uppercase tracking-[0.18em] text-white transition-colors duration-300 hover:opacity-90 ${
-                    isScrolled ? "bg-explore" : "bg-renew"
+                    hasFilledNav ? "bg-explore" : "bg-renew"
                   }`}
                 >
                   Book Now
@@ -276,7 +287,7 @@ export default function Navbar() {
                       >
                         <div
                           className={`min-w-62.5 px-6 py-5 shadow-xl backdrop-blur-md ${
-                            isScrolled ? "bg-renew" : "bg-main"
+                            hasFilledNav ? "bg-renew" : "bg-main"
                           }`}
                         >
                           <div className="flex flex-col gap-4">

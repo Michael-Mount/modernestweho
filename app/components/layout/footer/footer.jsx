@@ -25,6 +25,10 @@ const defaultLinks = [
   { label: "Gallery", href: "/gallery" },
 
   { label: "Contact", href: "/contact-us" },
+
+  { label: "Privacy Policy", href: "/privacy-policy" },
+  { label: "Accessibility", href: "/accessibility" },
+  { label: "FAQ", href: "/FAQ-terms" },
 ];
 
 export default function Footer({
