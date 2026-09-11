@@ -28,7 +28,7 @@ const defaultLinks = [
 
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Accessibility", href: "/accessibility" },
-  { label: "FAQ", href: "/FAQ-terms" },
+  { label: "FAQ", href: "/FAQ-Terms" },
 ];
 
 export default function Footer({
