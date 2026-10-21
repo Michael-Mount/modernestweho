@@ -15,7 +15,7 @@ const defaultLogos = [
   {
     src: "/HCWhiteLogo.png",
     alt: "Haycreek Hotels logo",
-    href: "/residences/location-two",
+    href: "https://www.haycreekhotels.com/",
   },
 ];
 

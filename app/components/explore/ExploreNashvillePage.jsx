@@ -15,7 +15,7 @@ const neighborhoods = [
     description:
       "Steps from The Mondernest Gulch View, The Gulch blends modern energy with some of Nashville’s best dining, shopping, and nightlife. It is one of the city’s most vibrant districts and a perfect extension of the living experience.",
     image:
-      "https://res.cloudinary.com/dnhvjwqak/image/upload/v1778248823/modernest-extrior_qkwnbp.png",
+      "https://images.unsplash.com/photo-1776176130100-d8a17b7bdd70?q=80&w=1750&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     alt: "The Gulch neighborhood in Nashville",
   },
   {
@@ -31,7 +31,7 @@ const neighborhoods = [
     description:
       "Known for its walkable charm, boutiques, coffee shops, and local favorites, 12 South offers a softer side of Nashville while still feeling lively and distinctly local.",
     image:
-      "https://res.cloudinary.com/dnhvjwqak/image/upload/v1778249344/citynownext_1_vjqt0z.png",
+      "https://images.unsplash.com/photo-1663560178053-9e67bfe103f5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     alt: "12 South neighborhood in Nashville",
   },
 ];

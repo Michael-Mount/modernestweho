@@ -7,44 +7,13 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
-gsap.registerPlugin(ScrollTrigger);
+import AmenitiesSection from "../layout/cards/AmenitiesSection";
 
-const defaultAmenities = [
-  {
-    title: "Private Apartment-Style Living",
-    description:
-      "Enjoy the comfort of a fully private residence with the polished feel of a boutique hospitality experience.",
-  },
-  {
-    title: "Designer Furnishings",
-    description:
-      "Curated interiors, refined finishes, and warm modern details create a calm and elevated atmosphere.",
-  },
-  {
-    title: "Fully Equipped Kitchen",
-    description:
-      "Prepare meals, host casually, or settle in for an extended stay with a kitchen designed for real daily living.",
-  },
-  {
-    title: "High-Speed Wi-Fi",
-    description:
-      "Reliable connectivity for working remotely, streaming, or planning your next Nashville outing.",
-  },
-  {
-    title: "In-Unit Laundry",
-    description:
-      "A practical luxury that makes longer stays, weekend trips, and travel routines feel effortless.",
-  },
-  {
-    title: "Premium Linens",
-    description:
-      "Soft bedding, comfortable textures, and thoughtful essentials designed for restorative rest.",
-  },
-];
+gsap.registerPlugin(ScrollTrigger);
 
 const featureImages = [
   {
-    src: "https://images.unsplash.com/photo-1741764014072-68953e93cd48?q=80&w=1819&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://images.unsplash.com/photo-1789374398591-fb5f3256b869?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     alt: "Modern luxury living room at The Modernest WeHo",
   },
   {
@@ -52,7 +21,7 @@ const featureImages = [
     alt: "Fully equipped luxury kitchen at The Modernest WeHo",
   },
   {
-    src: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://images.unsplash.com/photo-1658705899598-cd073e4734c7?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     alt: "Elegant bedroom at The Modernest WeHo",
   },
 ];
@@ -62,7 +31,6 @@ export default function AmenitiesPage({
   eyebrow = "Amenities",
   title = "Elevated essentials for modern Nashville living",
   intro = "Designed for comfort, privacy, and effortless stays, The Modernest WeHo brings together apartment-style convenience with a refined hospitality experience.",
-  amenities = defaultAmenities,
   images = featureImages,
 }) {
   const pageRef = useRef(null);
@@ -177,7 +145,7 @@ export default function AmenitiesPage({
 
             <div className="amenities-hero-text mt-10">
               <Link
-                href="/booking"
+                href="/"
                 className="inline-block bg-renew px-10 py-4 font-montserrat text-sm uppercase tracking-wide text-white transition-colors duration-300 hover:bg-rest"
               >
                 Book Your Stay
@@ -204,38 +172,7 @@ export default function AmenitiesPage({
       </section>
 
       <section className="px-6 py-16 md:py-24">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-14 max-w-3xl">
-            <p className="mb-4 font-montserrat text-sm uppercase tracking-[0.35em] text-renew">
-              Offered Amenities
-            </p>
-
-            <h2 className="font-prata text-4xl text-rest uppercase leading-tight md:text-5xl">
-              Thoughtfully designed for ease, comfort, and privacy
-            </h2>
-          </div>
-
-          <div className="amenities-grid grid gap-px bg-neutral-200 md:grid-cols-2 lg:grid-cols-3">
-            {amenities.map((amenity, index) => (
-              <article
-                key={amenity.title}
-                className="amenity-card bg-white p-8 md:p-10"
-              >
-                <span className="mb-8 block font-prata text-4xl text-renew/70">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-
-                <h3 className="font-prata text-rest text-2xl uppercase leading-tight md:text-3xl">
-                  {amenity.title}
-                </h3>
-
-                <p className="mt-5 font-montserrat text-sm leading-7 text-neutral-600 md:text-base">
-                  {amenity.description}
-                </p>
-              </article>
-            ))}
-          </div>
-        </div>
+        <AmenitiesSection />
       </section>
 
       <section className="feature-section px-6 py-20 md:py-28">

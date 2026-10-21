@@ -141,9 +141,9 @@ export default function ContactPageSection() {
                 Address
               </p>
               <address className="not-italic text-xl leading-8 text-main">
-                123 The Mondernest Lane
+                1425 4th Avenue South
                 <br />
-                Nashville, TN 31401
+                Nashville, TN 37210
               </address>
             </div>
 
