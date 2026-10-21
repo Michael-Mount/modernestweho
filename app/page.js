@@ -1,7 +1,8 @@
 import Herovideo from "./components/layout/hero/Herovideo";
 import IntroSection from "./components/layout/header/IntroSection";
+import NashvilleFeature from "./components/layout/text/NashvilleFeature";
 import TextTwoImageSection from "./components/layout/text/TextTwoImageSection";
-import AmenitiesCarousel from "./components/carousel/AmenitiesCarousel";
+import AmenitiesSection from "./components/layout/cards/AmenitiesSection";
 import SimpleGallery from "./components/galleries/SimpleGallery";
 import ManagementCompanyCard from "./components/layout/cards/managementCompanyCard";
 
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Herovideo videoSrc="https://cdn.pixabay.com/video/2019/08/21/26192-357512350_large.mp4" />
       <IntroSection />
+
       <TextTwoImageSection
         eyebrow="Modern Nashville Living"
         title="Two distinct residences. One elevated experience."
@@ -21,7 +23,8 @@ export default function Home() {
         imageOneAlt="Modern luxury apartment living room in Nashville"
         imageTwoAlt="Elegant bedroom in a luxury Nashville apartment"
       />
-      <AmenitiesCarousel />
+      <NashvilleFeature />
+      <AmenitiesSection />
       <SimpleGallery />
       <ManagementCompanyCard />
     </>
