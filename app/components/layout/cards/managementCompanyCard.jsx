@@ -47,13 +47,13 @@ export default function ManagementCompanyCard() {
         </p>
 
         <h2 className="font-serif text-3xl text-white md:text-4xl">
-          Hay Creek Hotels
+          Victory Hotels
         </h2>
 
         <p className="mx-auto mt-5 max-w-2xl text-sm leading-7 text-white md:text-base">
-          The Modernest is proudly managed by Hay Creek Hotels, a hospitality
-          group known for thoughtful service, distinctive properties, and
-          elevated guest experiences.
+          The Modernest is proudly managed by Victory, a hospitality group known
+          for thoughtful service, distinctive properties, and elevated guest
+          experiences.
         </p>
 
         <Link
@@ -62,7 +62,7 @@ export default function ManagementCompanyCard() {
           rel="noopener noreferrer"
           className="group mt-8 inline-flex items-center gap-3 text-xs uppercase tracking-[0.22em] text-white transition-colors duration-300 hover:text-white"
         >
-          Visit Hay Creek Hotels
+          Visit Victory Hotels
           <span className="block h-px w-10 bg-white transition-all duration-300 group-hover:w-16 group-hover:bg-stone-500" />
         </Link>
       </div>

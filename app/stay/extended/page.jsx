@@ -32,7 +32,7 @@ const extendedStayContent = {
     description:
       "For long weekends that become full weeks, extended events, staycations, and trips with no reason to rush home.",
     image:
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2400&auto=format&fit=crop",
+      "https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/Mad%20Dog%20Loft%20-%20View%201%20(7-10-26).jpg",
     imageAlt:
       "Warm modern apartment-style living room designed for a comfortable extended stay",
   },
@@ -81,7 +81,7 @@ const extendedStayContent = {
       "Spend a day out, take the next one slowly, invite the group back together, or make no plans at all. Apartment-style space gives longer trips the flexibility to be energetic when you want them to be and comfortable when you do not.",
     ],
     image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1800&auto=format&fit=crop",
+      "https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/Modernest%20WeHo%20Bathroom.jpg",
     imageAlt:
       "Comfortable contemporary apartment interior suited to a longer Nashville stay",
   },

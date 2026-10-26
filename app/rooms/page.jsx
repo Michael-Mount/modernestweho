@@ -11,7 +11,7 @@ export default function rooms() {
   return (
     <section>
       <HeroImage
-        image="https://images.unsplash.com/photo-1654064550568-fb282026c165?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/Secondary%20Bedroom.jpg"
         alt="interior of the king guestroom"
       />
       <IntroSection />

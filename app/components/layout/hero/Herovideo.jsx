@@ -11,7 +11,7 @@ export default function Herovideo({ videoSrc }) {
         loop
         playsInline
       />
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/20" />
     </section>
   );
 }

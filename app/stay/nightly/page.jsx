@@ -33,7 +33,7 @@ const nightlyStayContent = {
     description:
       "For weekends, celebrations, and spontaneous Nashville escapes, apartment-style living gives your stay more space to unfold.",
     image:
-      "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2400&auto=format&fit=crop",
+      "https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/26-1019%20-%20Mad%20Dog%20-%20Penthouse%20Unit%20500%20-%20Towards%20View.jpg",
     imageAlt:
       "Warmly lit lounge prepared for friends gathering during a weekend stay",
   },
@@ -82,7 +82,7 @@ const nightlyStayContent = {
       "Whether the trip is a couples' getaway, birthday weekend, family visit, or small celebration with friends, having a living room, kitchen, and room to spread out changes the pace of the stay. Plans can start at home, change at the last minute, and keep going long after dinner reservations end.",
     ],
     image:
-      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1800&auto=format&fit=crop",
+      "https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/Tertiary%20Bedroom.jpg",
     imageAlt:
       "Bright modern apartment living room with comfortable seating and large windows",
   },

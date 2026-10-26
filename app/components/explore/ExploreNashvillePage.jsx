@@ -214,7 +214,7 @@ export default function ExploreNashvillePage() {
               className="absolute inset-0 h-[115%] w-full"
             >
               <Image
-                src="https://images.unsplash.com/photo-1556033681-83abea291a96?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Sky%20Lounge.jpg"
                 alt="Nashville skyline near The Mondernest Gulch View"
                 fill
                 priority
@@ -292,7 +292,7 @@ export default function ExploreNashvillePage() {
               className="absolute inset-0 h-[115%] w-full"
             >
               <Image
-                src="https://images.unsplash.com/photo-1715013648099-3cf616c3f264?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://sabal-house.b-cdn.net/Mondernest/WeHo/Geodis%20Park.jpeg"
                 alt="Broadway and live music scene in Nashville"
                 fill
                 className="object-cover"

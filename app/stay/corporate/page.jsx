@@ -34,7 +34,7 @@ const corporateStayContent = {
     description:
       "For remote workers, traveling professionals, and longer business stays, make Nashville your home base without making work feel like the whole trip.",
     image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2400&auto=format&fit=crop",
+      "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Co-Working.jpg",
     imageAlt:
       "Modern apartment-style workspace with natural light for a remote work stay",
   },
@@ -83,7 +83,7 @@ const corporateStayContent = {
       "Keep the practical pieces easy—space to work, room to unwind, a kitchen for everyday meals, and a comfortable place to stay awhile—then use the rest of your time to make Nashville feel less like a business trip and more like temporary home.",
     ],
     image:
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1800&auto=format&fit=crop",
+      "https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/Modernest%20WeHo%20Studio%20(1).jpg",
     imageAlt:
       "Contemporary apartment living and dining area suited to working remotely in Nashville",
   },

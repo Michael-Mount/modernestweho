@@ -11,19 +11,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 const defaultImages = [
   {
-    src: "https://images.unsplash.com/photo-1686056040370-b5e5c06c4273?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Sauna%20Room.jpg",
     alt: "Modern luxury apartment living room",
   },
   {
-    src: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Co-Working.jpg",
     alt: "Elegant apartment bedroom with refined finishes",
   },
   {
-    src: "https://images.unsplash.com/photo-1741764014072-68953e93cd48?q=80&w=1819&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Pool.jpg",
     alt: "Luxury apartment kitchen with modern details",
   },
   {
-    src: "https://images.unsplash.com/photo-1696556009844-2d7ef3c3e116?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/26-1019%20-%20Mad%20Dog%20-%20Penthouse%20Unit%20500%20-%20Towards%20View.jpg",
     alt: "Nashville apartment interior with curated design",
   },
 ];

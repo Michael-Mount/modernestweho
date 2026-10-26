@@ -13,15 +13,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 const featureImages = [
   {
-    src: "https://images.unsplash.com/photo-1789374398591-fb5f3256b869?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    src: "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Pool.jpg",
     alt: "Modern luxury living room at The Modernest WeHo",
   },
   {
-    src: "https://images.unsplash.com/photo-1611095210561-67f0832b1ca3?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    src: "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Clubhouse.jpg",
     alt: "Fully equipped luxury kitchen at The Modernest WeHo",
   },
   {
-    src: "https://images.unsplash.com/photo-1658705899598-cd073e4734c7?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+    src: "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Cold%20Plunge%20Room%20-%20No%20Person.jpg",
     alt: "Elegant bedroom at The Modernest WeHo",
   },
 ];

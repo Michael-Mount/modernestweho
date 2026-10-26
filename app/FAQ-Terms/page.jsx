@@ -11,7 +11,7 @@ import HeroImage from "../components/layout/hero/HeroImage";
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const HERO_IMAGE =
-  "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2400&auto=format&fit=crop";
+  "https://sabal-house.b-cdn.net/Mondernest/WeHo/Amenities%20Renders/Modernest%20WeHo%20Lobby.jpg";
 
 const faqItems = [
   {

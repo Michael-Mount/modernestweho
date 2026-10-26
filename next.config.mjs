@@ -22,6 +22,11 @@ const nextConfig = {
         hostname: "cdn.pixabay.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "sabal-house.b-cdn.net",
+        pathname: "/**",
+      },
     ],
   },
 };

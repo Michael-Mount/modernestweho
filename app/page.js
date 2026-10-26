@@ -9,7 +9,7 @@ import ManagementCompanyCard from "./components/layout/cards/managementCompanyCa
 export default function Home() {
   return (
     <>
-      <Herovideo videoSrc="https://cdn.pixabay.com/video/2019/08/21/26192-357512350_large.mp4" />
+      <Herovideo videoSrc="https://sabal-house.b-cdn.net/Mondernest/Mondernest%20Hero%201080.mp4" />
       <IntroSection />
 
       <TextTwoImageSection
@@ -18,8 +18,8 @@ export default function Home() {
         description="The Modernest Collection brings together apartment-style comfort, curated design, and a polished sense."
         buttonLabel="View Rooms"
         buttonHref="/residences"
-        imageOne="https://images.unsplash.com/photo-1737898415581-7dea57a1905b?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        imageTwo="https://images.unsplash.com/photo-1556020685-ae41abfc9365?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        imageOne="https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/1425%20-%20Sink%20%2B%20Tile%20Detail%20Shot.jpg"
+        imageTwo="https://sabal-house.b-cdn.net/Mondernest/WeHo/Interior%20Renders/Mad%20Dog%20-%20Loft%20-%20View%20From%20Above%20(7-10-26).jpg"
         imageOneAlt="Modern luxury apartment living room in Nashville"
         imageTwoAlt="Elegant bedroom in a luxury Nashville apartment"
       />

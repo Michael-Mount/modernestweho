@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
       <HeroImage
-        image="https://images.unsplash.com/photo-1715013550766-6dade517c856?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        image="https://sabal-house.b-cdn.net/Mondernest/WeHo/Exterior%20Renders/26-1005%20-%20Mad%20Dog%20-%20Fall%20Exterior%20Shot.jpeg"
         alt="Neon Lights from signs in downtown Nashville"
       />
       <ExploreNashvillePage />
