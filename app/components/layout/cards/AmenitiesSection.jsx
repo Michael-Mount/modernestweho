@@ -16,9 +16,9 @@ export const DEFAULT_AMENITIES = [
   },
   {
     id: "designer-furnishing",
-    title: "Designer Furnishing",
+    title: "Luxuary Lounge",
     description:
-      "Curated interiors, refined finishes, and warm modern details create a calm and elevated atmosphere.",
+      "Unwind, connect, and socialize in our inviting lounge, featuring comfortable seating, modern design, and a welcoming atmosphere for relaxation and gathering.",
   },
   {
     id: "equipped-kitchen",
@@ -28,7 +28,7 @@ export const DEFAULT_AMENITIES = [
   },
   {
     id: "pool-cold-plunge",
-    title: "Pool and Cold Plunge",
+    title: "Pool, Sauna, and Cold Plunge",
     description:
       "Unwind or recharge with an outdoor pool and refreshing cold plunge, a resort-inspired amenity designed for extended stays in Nashville.",
   },

@@ -224,6 +224,35 @@ export default function StayExperiencePage({ content }) {
                 <p key={paragraph}>{paragraph}</p>
               ))}
             </div>
+
+            {/* Explore Rooms Ghost Button */}
+            <Link
+              href="/rooms"
+              className="
+          group relative mt-10 inline-flex min-h-12
+          items-center justify-center overflow-hidden
+          border border-white/70 px-9 py-3
+          text-xs font-medium uppercase tracking-[0.22em]
+          text-white transition-colors duration-300
+          hover:border-white hover:text-[#665b53]
+          focus-visible:outline-2
+          focus-visible:outline-offset-4
+          focus-visible:outline-white
+        "
+            >
+              <span
+                aria-hidden="true"
+                className="
+            absolute inset-0 origin-left scale-x-0
+            bg-white transition-transform duration-300
+            ease-out group-hover:scale-x-100
+            group-focus-visible:scale-x-100
+            motion-reduce:transition-none
+          "
+              />
+
+              <span className="relative z-10">Explore Rooms</span>
+            </Link>
           </div>
         </div>
       </section>

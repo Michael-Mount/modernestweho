@@ -13,9 +13,9 @@ const defaultLogos = [
     href: "https://www.casouthdevelopment.com/",
   },
   {
-    src: "/HCWhiteLogo.png",
-    alt: "Haycreek Hotels logo",
-    href: "https://www.haycreekhotels.com/",
+    src: "/VictoryLogo.png",
+    alt: "Victory Hotels logo",
+    href: "https://victorypropertyinsights.com/",
   },
 ];
 

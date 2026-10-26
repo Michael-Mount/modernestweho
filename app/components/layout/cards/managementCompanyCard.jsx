@@ -34,11 +34,11 @@ export default function ManagementCompanyCard() {
         {/* Logo */}
         <div className="mx-auto mb-6 flex justify-center">
           <Image
-            src="/HCWhiteLogo.png"
-            alt="Hay Creek Hotels logo"
-            width={180}
-            height={80}
-            className="h-auto w-40 object-contain opacity-90 md:w-48"
+            src="/VictoryLogo.png"
+            alt="Victory Logo"
+            width={240}
+            height={120}
+            className="h-auto w-40 object-contain opacity-90 md:w-80 md:-my-10"
           />
         </div>
 
@@ -57,7 +57,7 @@ export default function ManagementCompanyCard() {
         </p>
 
         <Link
-          href="https://www.haycreekhotels.com/"
+          href="https://victorypropertyinsights.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="group mt-8 inline-flex items-center gap-3 text-xs uppercase tracking-[0.22em] text-white transition-colors duration-300 hover:text-white"
